@@ -1,10 +1,10 @@
 const randomNumber1 = Math.floor(Math.random()*6)+1
-const diceNumber1 = "images/dice"+randomNumber1+".png"
+const diceNumber1 = "dice"+randomNumber1+".png"
 
 document.querySelector(".img1").setAttribute("src",diceNumber1);
 
 const randomNumber2 = Math.floor(Math.random()*6)+1
-const diceNumber2 = "images/dice"+randomNumber2+".png"
+const diceNumber2 = "dice"+randomNumber2+".png"
 
 document.querySelector(".img2").setAttribute("src",diceNumber2);
 
